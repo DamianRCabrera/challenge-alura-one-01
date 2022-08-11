@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador - Damián Cabrera - Alura Challenge #1</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    
+    <main>
+        <a href="https://www.oracle.com/ar/education/oracle-next-education/" target="_blank"><img class="main-logo" src="img/logo.svg" alt="Logo de Alura"></a>
+
+        <div class="main-container-encrypt">
+            <textarea class="main-container-encrypt__textarea" name="decryptor" id="encryptor" placeholder="Ingrese el texto aquí" autofocus></textarea>
+            <div class="main-container-encrypt-warning">
+                <img src="img/icon.svg" alt="icono" class="main-container-encrypt-warning__img">
+                <p class="main-container-encrypt-warning__p">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="main-container-encrypt-buttons">
+                <button class="main-container-encrypt-buttons__encrypt" id="encrypt">Encriptar</button>
+                <button class="main-container-encrypt-buttons__decrypt" id="decrypt">Desencriptar</button>
+            </div>
+        </div>
+
+        <div class="main-container-decrypt">
+            <div class="main-container-decrypt-container hidden">
+                <textarea class="main-container-decrypt-container__textarea" name="decryptor" id="decryptor" readonly></textarea>
+                <span class="main-container-decrypt-container__msg hidden">&#9989; Copiado al portapapeles!</span>
+                <button class="main-container-decrypt-container__button" id="copy">Copiar</button>
+            </div>
+            <div class="main-container-decrypt-search">
+                <img class="main-container-decrypt-search__img" src="img/searching.svg" alt="Persona buscando con lupa">
+                <h3 class="main-container-decrypt-search__h3">Ningún mensaje fue encontrado</h3>
+                <p class="main-container-decrypt-search__p">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-info">
+            <p class="footer-info__p">Creado por Damián R. Cabrera.</p>
+            <p class="footer-info__p">Todos los derechos reservados<sup>&copy;.</sup></p>
+        </div>
+
+        <nav class="footer-nav">
+            <a href="https://www.linkedin.com/in/damian-roberto-cabrera/" target="_blank"><img src="img/linkedin.svg" alt="Link to LinkedIn" class="footer-nav__img"></a>
+
+            <a href="https://github.com/DamianRCabrera" target="_blank"><img src="img/github.svg" alt="Link to GitHub" class="footer-nav__img"></a>
+        </nav>
+    </footer>
+
+    <script src="js/main.js"></script>
+    
+</body>
+
+</html>
