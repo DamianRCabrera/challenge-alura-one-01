@@ -7,6 +7,8 @@
 body {
     font-family: 'Inter', sans-serif;
     background-color: #f3f5fc;
+    overflow:visible;
+    -webkit-overflow-scrolling: touch;
 }
 
 .main-container-encrypt__textarea {
@@ -160,6 +162,7 @@ footer {
     width: 2em;
     box-shadow:5px 15px 12px
     rgba(0, 0, 0, 0.08);
+    border-radius: 1.5em;
 }
 
 /* ///////////////////////// PRIMER BREAK-POINT //////////////////////////////// */
