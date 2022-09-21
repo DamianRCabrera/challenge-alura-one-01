@@ -90,6 +90,10 @@ body {
     rgba(0, 0, 0, 0.08);
 }
 
+.main-container-decrypt-search__img {
+    display: none;
+}
+
 .main-container-decrypt-container__textarea {
     display: block;
     resize: none;
@@ -177,7 +181,7 @@ footer {
 
 /* ///////////////////////// PRIMER BREAK-POINT //////////////////////////////// */
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
     main {
         padding: 1.5em 1em;
     }
